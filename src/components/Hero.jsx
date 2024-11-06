@@ -5,8 +5,8 @@ import { Tooltip } from "@mui/material";
 export default function Hero() {
   return (
     <div className="flex flex-col">
-      <div className="m-auto rounded-md mx-10 p-3 font-mono">
-        <h1 className="text-5xl pb-2">hey, i'm</h1>
+      <div className="m-auto rounded-md p-3 font-mono">
+        <h1 className="text-6xl pb-2">hey, i'm </h1>
         <h1 className="text-6xl underline underline-offset-[6px] ">
           Nikhil Dunna
         </h1>
@@ -33,7 +33,6 @@ export default function Hero() {
               <img src="resume.svg" alt="" />
             </a>
           </Tooltip>
-          
         </div>
       </div>
     </div>

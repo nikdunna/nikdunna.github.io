@@ -15,7 +15,7 @@ export function ProjectCard({
   return (
     <div
       id="project-card"
-      className="flex flex-col md:flex-row mx-5 accent-bg rounded-lg"
+      className="flex flex-col md:flex-row mx-5 bg-slate-800 bg-opacity-75 rounded-lg max-w-screen-xl"
     >
       {!reverse && (
         <video
