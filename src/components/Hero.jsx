@@ -7,14 +7,14 @@ export default function Hero() {
     <div className="flex flex-col">
       <div className="m-auto rounded-md p-3 font-mono">
         <h1 className="text-6xl pb-2">hey, i'm </h1>
-        <h1 className="text-6xl underline underline-offset-[6px] ">
+        <h1 className="text-6xl underline underline-offset-[6px]">
           Nikhil Dunna
         </h1>
         <div className="pt-6">
           <p className="">aspiring full stack developer</p>
           <p className="">
             3rd year undergrad in computer science at the {""}
-            <span className="text-red-600">university of georgia</span>
+            <span className="">university of georgia</span>
           </p>
         </div>
         <div className="flex flex-row size-64 space-x-8 mt-6">

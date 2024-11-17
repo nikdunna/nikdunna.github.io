@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../index.css";
+import classNames from "classnames";
 
 export function ProjectCard({
   title,
@@ -11,13 +12,18 @@ export function ProjectCard({
   js,
   html,
   css,
+  java,
+  inProgress,
 }) {
   return (
     <div
       id="project-card"
-      className="flex flex-col md:flex-row mx-5 bg-slate-800 bg-opacity-75 rounded-lg max-w-screen-xl"
+      className={classNames(
+        "flex flex-col md:flex-row mx-5 bg-slate-800 bg-opacity-75 rounded-lg max-w-screen-xl",
+        { "animate-pulse": inProgress }
+      )}
     >
-      {!reverse && (
+      {source && !reverse && (
         <video
           id="project"
           controls
@@ -29,7 +35,8 @@ export function ProjectCard({
         />
       )}
       <div className="flex flex-col mx-5 p-5">
-        <h1 className="text-2xl pb-4 underline underline-offset-8 decoration-red-600">
+        <h1 className="text-2xl pb-4 underline underline-offset-8 decoration-cyan-700">
+          {/* <div className="h-16 w-16 bg-sky-600 animate-pulse rounded-full"></div> */}
           {title}
         </h1>
         <p className="text-md">{description}</p>
@@ -39,9 +46,10 @@ export function ProjectCard({
           {js && <img src="js-icon.svg" className="" />}
           {html && <img src="html-icon.svg" className="" />}
           {css && <img src="css-icon.svg" className="" />}
+          {java && <img src="java-icon.svg" className="" />}
         </div>
       </div>
-      {reverse && (
+      {source && reverse && (
         <video
           id="project"
           controls

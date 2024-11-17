@@ -29,6 +29,14 @@ export default function Portfolio() {
           "allows users to control a visualizer of bubble sort and insertion sort. data set size and simulation tick rate can be adjusted."
         }
       />
+      <ProjectCard
+        title={"UNDER CONSTRUCTION: rpg from scratch"}
+        java
+        inProgress
+        description={
+          "a 2D rpg adventure game full of pixel art inspired by 90s and early 2000's nintendo games. written in java and uses a custom engine. more of a passion project i work on in my free time."
+        }
+      />
     </div>
   );
 }
