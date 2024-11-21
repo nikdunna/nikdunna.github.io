@@ -35,7 +35,7 @@ export function ProjectCard({
         />
       )}
       <div className="flex flex-col mx-5 p-5">
-        <h1 className="text-2xl pb-4 underline underline-offset-8 decoration-cyan-700">
+        <h1 className="text-2xl pb-4 underline font-semibold underline-offset-8 decoration-cyan-700">
           {/* <div className="h-16 w-16 bg-sky-600 animate-pulse rounded-full"></div> */}
           {title}
         </h1>

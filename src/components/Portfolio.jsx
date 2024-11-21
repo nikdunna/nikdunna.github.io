@@ -7,7 +7,7 @@ import { Avatar } from "@mui/material";
 
 export default function Portfolio() {
   return (
-    <div className="flex flex-col mx-auto font-mono mb-15 items-center justify-center text-white space-y-10">
+    <div className="flex flex-col mx-auto font-medium mb-15 items-center justify-center text-white space-y-10">
       <ProjectCard
         title={"bored in athens event randomizer"}
         react

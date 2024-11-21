@@ -16,7 +16,7 @@ function App() {
         <div className="flex flex-col h-screen justify-center">
           <Hero />
           <div className="flex flex-col items-center ">
-            <p className="font-mono pb-4">check out some of my projects here</p>
+            <p className="font-semibold pb-4">check out some of my projects here</p>
             <button
               onClick={() =>
                 window.scrollBy({ top: 700, left: 0, behavior: "smooth" })
