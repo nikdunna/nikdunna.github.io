@@ -1,2 +1,1 @@
-# Nikhil Dunna Portfolio
-
+# CSCI 4300 Github Pages Assignment
