@@ -97,6 +97,15 @@ section a:hover {
   text-decoration: underline;
 }
 
+.grid-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  padding: 1rem;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
 /**************   Projects   *****************/
 .three-col {
   display: grid;
@@ -120,6 +129,7 @@ section a:hover {
   border: black solid 2px;
   border-radius: 8px;
   margin: 1rem 1rem 3rem 1rem;
+
 }
 
 /**************   Responsiveness   *****************/
@@ -133,6 +143,10 @@ section a:hover {
   }
 
   .three-col {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-layout {
     grid-template-columns: 1fr;
   }
 }
@@ -156,6 +170,7 @@ input {
   transition: border-color 0.2s ease;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 textarea {
